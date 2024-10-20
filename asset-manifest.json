@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Web24-24/static/css/main.e6c13ad2.css",
+    "main.js": "/Web24-24/static/js/main.28c8dd30.js",
+    "static/js/453.e8b842f9.chunk.js": "/Web24-24/static/js/453.e8b842f9.chunk.js",
+    "index.html": "/Web24-24/index.html",
+    "main.e6c13ad2.css.map": "/Web24-24/static/css/main.e6c13ad2.css.map",
+    "main.28c8dd30.js.map": "/Web24-24/static/js/main.28c8dd30.js.map",
+    "453.e8b842f9.chunk.js.map": "/Web24-24/static/js/453.e8b842f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.28c8dd30.js"
+  ]
+}
