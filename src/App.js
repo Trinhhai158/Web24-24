@@ -1,10 +1,12 @@
+import Header from '~/Header';
+import Content from '~/Content';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import '~/Global/Global.scss';
 function App() {
   return (
-    <div>
-      <h1>hello app react</h1>
-      <h2>This is a heading</h2>
-      <h2>This is a heading</h2>
-      <h2>This is a heading</h2>
+    <div className="container">
+      <Header />
+      <Content />
     </div>
   );
 }

@@ -1,0 +1,111 @@
+@keyframes blink {
+  0%,
+  20% {
+    height: 25px; /* Chiều cao mắt ban đầu */
+  }
+  10% {
+    height: 5px; /* Chiều cao mắt khi chớp */
+  }
+  30% {
+    height: 25px; /* Trở lại chiều cao ban đầu */
+  }
+}
+
+@keyframes mouth {
+  0% {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  100% {
+    border-radius: 0 0 35px 35px;
+    width: 70px;
+    height: 25px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.background__content-left {
+  background-color: red;
+  width: 350px;
+}
+
+.background__content-right {
+  flex: 1;
+}
+
+.doraemon {
+  position: relative;
+  left: 50%;
+}
+
+.head {
+  width: 150px;
+  height: 150px;
+  background-color: #00a2e8;
+  border-radius: 50%;
+  position: relative;
+}
+
+.eyes {
+  position: absolute;
+  top: 35px;
+  left: 25px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eye {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden; /* Giữ các phần tử bên trong */
+  animation: blink 2s linear infinite; /* Thêm animation chớp mắt */
+}
+
+.eye::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Phần miệng cười */
+.mouth {
+  width: 10px;
+  height: 10px;
+  border: 5px solid white; /* Màu viền của miệng */
+  border-radius: 50%; /* Cong phía dưới */
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent; /* Để không có nền */
+  box-shadow: 0 0 5px 0 black; /* Tạo m��i */
+  animation: mouth 2s linear infinite;
+}
+
+.nose {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
