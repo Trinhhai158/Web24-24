@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Web24-24/static/css/main.4734cfb7.css",
-    "main.js": "/Web24-24/static/js/main.3cdbcf25.js",
+    "main.css": "/Web24-24/static/css/main.092bc75e.css",
+    "main.js": "/Web24-24/static/js/main.8dce4baa.js",
     "static/js/453.e8b842f9.chunk.js": "/Web24-24/static/js/453.e8b842f9.chunk.js",
     "index.html": "/Web24-24/index.html",
-    "main.4734cfb7.css.map": "/Web24-24/static/css/main.4734cfb7.css.map",
-    "main.3cdbcf25.js.map": "/Web24-24/static/js/main.3cdbcf25.js.map",
+    "main.092bc75e.css.map": "/Web24-24/static/css/main.092bc75e.css.map",
+    "main.8dce4baa.js.map": "/Web24-24/static/js/main.8dce4baa.js.map",
     "453.e8b842f9.chunk.js.map": "/Web24-24/static/js/453.e8b842f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4734cfb7.css",
-    "static/js/main.3cdbcf25.js"
+    "static/css/main.092bc75e.css",
+    "static/js/main.8dce4baa.js"
   ]
 }
