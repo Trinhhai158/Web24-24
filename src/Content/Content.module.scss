@@ -51,6 +51,15 @@
   background-color: #00a2e8;
   border-radius: 50%;
   position: relative;
+
+  &:hover {
+    background-color: red;
+    transition: background-color 1.5s linear;
+  }
+  &:hover .nose {
+    background-color: #00a2e8;
+    transition: background-color 1.5s linear;
+  }
 }
 
 .eyes {
@@ -97,6 +106,13 @@
   background-color: transparent; /* Để không có nền */
   box-shadow: 0 0 5px 0 black; /* Tạo m��i */
   animation: mouth 2s linear infinite;
+  animation-delay: 3s;
+
+  &:hover {
+    border-color: yellow; /* Thay đ��i màu khi chuột hover vào */
+    animation-play-state: paused; /* Tạm dừng animation */
+    transition: border-color 8s linear; // dùng cho hành động hover
+  }
 }
 
 .nose {
