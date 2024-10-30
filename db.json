@@ -1,0 +1,24 @@
+{
+  "students": [
+    { "id": 1, "name": "Nguyễn Văn A", "className": "10A1", "age": 16 },
+    { "id": 2, "name": "Trần Thị B", "className": "10A2", "age": 15 },
+    { "id": 3, "name": "Lê Văn C", "className": "11A1", "age": 17 },
+    { "id": 4, "name": "Phạm Thị D", "className": "11A2", "age": 16 },
+    { "id": 5, "name": "Nguyễn Văn E", "className": "12A1", "age": 18 },
+    { "id": 6, "name": "Trần Thị F", "className": "12A2", "age": 17 },
+    { "id": 7, "name": "Lê Văn G", "className": "10B1", "age": 16 },
+    { "id": 8, "name": "Phạm Thị H", "className": "10B2", "age": 15 },
+    { "id": 9, "name": "Nguyễn Văn I", "className": "11B1", "age": 17 },
+    { "id": 10, "name": "Trần Thị J", "className": "11B2", "age": 16 },
+    { "id": 11, "name": "Lê Văn K", "className": "12B1", "age": 18 },
+    { "id": 12, "name": "Phạm Thị L", "className": "12B2", "age": 17 },
+    { "id": 13, "name": "Nguyễn Văn M", "className": "10C1", "age": 16 },
+    { "id": 14, "name": "Trần Thị N", "className": "10C2", "age": 15 },
+    { "id": 15, "name": "Lê Văn O", "className": "11C1", "age": 17 },
+    { "id": 16, "name": "Phạm Thị P", "className": "11C2", "age": 16 },
+    { "id": 17, "name": "Nguyễn Văn Q", "className": "12C1", "age": 18 },
+    { "id": 18, "name": "Trần Thị R", "className": "12C2", "age": 17 },
+    { "id": 19, "name": "Lê Văn S", "className": "10D1", "age": 16 },
+    { "id": 20, "name": "Phạm Thị T", "className": "10D2", "age": 15 }
+  ]
+}
